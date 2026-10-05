@@ -1,0 +1,42 @@
+{
+  "checkpoint_sha256": "68fbce392828cd1371a2afd231001bfc362978c0f7cf3576de70becfc10188c8",
+  "format_version": 1,
+  "interpretation": "no statistically detectable paired simulator difference at this sample size",
+  "isaac_sim": {
+    "fall_rate": 0.03125,
+    "falls": 2,
+    "simulator": "isaac_sim",
+    "success_rate": 0.84375,
+    "success_rate_ci95": [
+      0.7357193822745122,
+      0.912851576617934
+    ],
+    "successes": 54,
+    "total": 64
+  },
+  "mujoco": {
+    "fall_rate": 0.046875,
+    "falls": 3,
+    "simulator": "mujoco",
+    "success_rate": 0.859375,
+    "success_rate_ci95": [
+      0.7538371825842297,
+      0.9242142744396914
+    ],
+    "successes": 55,
+    "total": 64
+  },
+  "mujoco_minus_isaac_success_rate": 0.015625,
+  "paired_goal_outcomes": {
+    "agreement_rate": 0.734375,
+    "both_success": 46,
+    "isaac_only_success": 8,
+    "mcnemar_exact_two_sided_p": 1.0,
+    "mujoco_only_success": 9,
+    "neither_success": 1
+  },
+  "protocol_validation": "PASS",
+  "sample_count_per_simulator": 64,
+  "scenario_sha256": "11a2c7ba87b44e552c99b71e3e00b25a702c28c071023e277c8eb0ad94bab37d",
+  "success_rate_ci95_overlap": true
+}

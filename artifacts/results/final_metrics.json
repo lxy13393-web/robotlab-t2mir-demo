@@ -1,0 +1,181 @@
+{
+  "closed_loop_task47_seed42_16x32": {
+    "base_ppo": {
+      "adaptation_success_delta_last_minus_first": 0.09375,
+      "episodes": 512,
+      "fall_rate": 0.59375,
+      "success_rate": 0.40625
+    },
+    "query_only_mlp_matched": {
+      "adaptation_success_delta_last_minus_first": 0.125,
+      "episodes": 512,
+      "fall_rate": 0.77734375,
+      "success_rate": 0.19921875
+    },
+    "t2mir_a_midlb003": {
+      "adaptation_success_delta_last_minus_first": 0.25,
+      "episodes": 512,
+      "fall_rate": 0.099609375,
+      "success_rate": 0.744140625
+    },
+    "t2mir_d_midlb003": {
+      "adaptation_success_delta_last_minus_first": 0.40625,
+      "episodes": 512,
+      "fall_rate": 0.130859375,
+      "success_rate": 0.79296875
+    }
+  },
+  "cross_sim_paired": {
+    "checkpoint_sha256": "68fbce392828cd1371a2afd231001bfc362978c0f7cf3576de70becfc10188c8",
+    "format_version": 1,
+    "independent_scenario_sets": 2,
+    "interpretation": "no statistically detectable paired simulator difference across the pooled sets",
+    "isaac_sim": {
+      "fall_rate": 0.03125,
+      "falls": 4,
+      "success_rate": 0.890625,
+      "success_rate_ci95": [
+        0.8247655486183226,
+        0.9337212042929989
+      ],
+      "successes": 114
+    },
+    "mujoco": {
+      "fall_rate": 0.0703125,
+      "falls": 9,
+      "success_rate": 0.8203125,
+      "success_rate_ci95": [
+        0.7447837371324442,
+        0.8771754002548395
+      ],
+      "successes": 105
+    },
+    "mujoco_minus_isaac_success_rate": -0.0703125,
+    "paired_goal_outcomes": {
+      "agreement_rate": 0.7421875,
+      "both_success": 93,
+      "isaac_only_success": 21,
+      "mcnemar_exact_two_sided_p": 0.16275565745308995,
+      "mujoco_only_success": 12,
+      "neither_success": 2
+    },
+    "per_scenario_set": [
+      {
+        "checkpoint_sha256": "68fbce392828cd1371a2afd231001bfc362978c0f7cf3576de70becfc10188c8",
+        "format_version": 1,
+        "interpretation": "no statistically detectable paired simulator difference at this sample size",
+        "isaac_sim": {
+          "fall_rate": 0.03125,
+          "falls": 2,
+          "simulator": "isaac_sim",
+          "success_rate": 0.84375,
+          "success_rate_ci95": [
+            0.7357193822745122,
+            0.912851576617934
+          ],
+          "successes": 54,
+          "total": 64
+        },
+        "mujoco": {
+          "fall_rate": 0.046875,
+          "falls": 3,
+          "simulator": "mujoco",
+          "success_rate": 0.859375,
+          "success_rate_ci95": [
+            0.7538371825842297,
+            0.9242142744396914
+          ],
+          "successes": 55,
+          "total": 64
+        },
+        "mujoco_minus_isaac_success_rate": 0.015625,
+        "paired_goal_outcomes": {
+          "agreement_rate": 0.734375,
+          "both_success": 46,
+          "isaac_only_success": 8,
+          "mcnemar_exact_two_sided_p": 1.0,
+          "mujoco_only_success": 9,
+          "neither_success": 1
+        },
+        "protocol_validation": "PASS",
+        "sample_count_per_simulator": 64,
+        "scenario_sha256": "11a2c7ba87b44e552c99b71e3e00b25a702c28c071023e277c8eb0ad94bab37d",
+        "success_rate_ci95_overlap": true
+      },
+      {
+        "checkpoint_sha256": "68fbce392828cd1371a2afd231001bfc362978c0f7cf3576de70becfc10188c8",
+        "format_version": 1,
+        "interpretation": "paired outcomes show a statistically detectable simulator difference at the 0.05 level",
+        "isaac_sim": {
+          "fall_rate": 0.03125,
+          "falls": 2,
+          "simulator": "isaac_sim",
+          "success_rate": 0.9375,
+          "success_rate_ci95": [
+            0.8500251490779133,
+            0.9754287986033819
+          ],
+          "successes": 60,
+          "total": 64
+        },
+        "mujoco": {
+          "fall_rate": 0.09375,
+          "falls": 6,
+          "simulator": "mujoco",
+          "success_rate": 0.78125,
+          "success_rate_ci95": [
+            0.6656721604337418,
+            0.8649768059328052
+          ],
+          "successes": 50,
+          "total": 64
+        },
+        "mujoco_minus_isaac_success_rate": -0.15625,
+        "paired_goal_outcomes": {
+          "agreement_rate": 0.75,
+          "both_success": 47,
+          "isaac_only_success": 13,
+          "mcnemar_exact_two_sided_p": 0.021270751953125,
+          "mujoco_only_success": 3,
+          "neither_success": 1
+        },
+        "protocol_validation": "PASS",
+        "sample_count_per_simulator": 64,
+        "scenario_sha256": "4aef3878c49aed07b47a146fcb463d1718c48ceee3239b99df9aec8c155f7559",
+        "success_rate_ci95_overlap": true
+      }
+    ],
+    "protocol_validation": "PASS",
+    "sample_count_per_simulator": 128,
+    "scenario_sha256s": [
+      "11a2c7ba87b44e552c99b71e3e00b25a702c28c071023e277c8eb0ad94bab37d",
+      "4aef3878c49aed07b47a146fcb463d1718c48ceee3239b99df9aec8c155f7559"
+    ]
+  },
+  "format_version": 1,
+  "notes": [
+    "The held-out closed-loop and paired sim-to-sim experiments use different goal contracts and must not be pooled.",
+    "Task success and fall rate are primary; cross-simulator proxy return is secondary."
+  ],
+  "routing_efficiency": {
+    "dt2mir_reduction_fraction": 0.07125659474848878,
+    "expert_parameters_per_expert": 49472,
+    "measurement": "logical activated expert parameters per routing decision",
+    "models": {
+      "dt2mir": {
+        "activated_expert_parameters": 183787.17497841106,
+        "evaluated_tasks": 42,
+        "routing_decisions_per_layer": 4150272,
+        "task_mean_active_experts": 1.9248037237077473,
+        "token_mean_active_experts": 1.7901698972982976
+      },
+      "t2mir": {
+        "activated_expert_parameters": 197888.0,
+        "evaluated_tasks": 42,
+        "routing_decisions_per_layer": 4150272,
+        "task_mean_active_experts": 2.0,
+        "token_mean_active_experts": 2.0
+      }
+    }
+  }
+}

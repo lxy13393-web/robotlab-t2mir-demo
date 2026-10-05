@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "experiment_name": "official_mixed_v1_abcd_formal",
+  "dataset_dir": "data/t2mir/RobotLab-G1-MultiDynamics/official_mixed_v1/formal_v1/dpt",
+  "queue_state": "data/t2mir/RobotLab-G1-MultiDynamics/official_mixed_v1/formal_staging_v1/queue_state.json",
+  "trainer": "methods/t2mir/commands/train_robotlab_g1_formal.py",
+  "validator": "pipeline/dataset/validate_official_mixed_formal.py",
+  "runs_root": "methods/t2mir/runs/RobotLab-G1-MultiDynamics",
+  "gpu_lock": "methods/t2mir/runs/RobotLab-G1-MultiDynamics/.abcd_cuda0.lock",
+  "seeds": [42, 43, 44],
+  "resume_incomplete": true,
+  "checkpoint_selection": "best_validation",
+  "fairness_contract": {
+    "selection_metric": "validation_mse",
+    "total_steps": 100000,
+    "eval_every": 500,
+    "checkpoint_every": 5000,
+    "early_stopping_patience": 30,
+    "early_stopping_min_delta": 0.000001
+  },
+  "training_overrides": {
+    "device": "cuda:0"
+  },
+  "code_files": [
+    "methods/t2mir/commands/run_robotlab_g1_abcd_training.py",
+    "methods/t2mir/algorithms/datasets.py",
+    "methods/t2mir/algorithms/moe.py",
+    "methods/t2mir/algorithms/policy.py",
+    "methods/t2mir/algorithms/tools.py"
+  ],
+  "variants": [
+    {
+      "id": "A",
+      "config": "methods/t2mir/configs/args_robotlab_g1_official_mixed_v1.yaml",
+      "routing_signature": {
+        "schema_version": 1,
+        "token": {"mode": "topk", "num_experts": 6, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 6},
+        "task": {"mode": "topk", "num_experts": 8, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 8},
+        "task_hard_router": false
+      }
+    },
+    {
+      "id": "B",
+      "config": "methods/t2mir/configs/args_robotlab_g1_official_mixed_v1_token_topp.yaml",
+      "routing_signature": {
+        "schema_version": 1,
+        "token": {"mode": "topp", "num_experts": 6, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 6},
+        "task": {"mode": "topk", "num_experts": 8, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 8},
+        "task_hard_router": false
+      }
+    },
+    {
+      "id": "C",
+      "config": "methods/t2mir/configs/args_robotlab_g1_official_mixed_v1_task_topp.yaml",
+      "routing_signature": {
+        "schema_version": 1,
+        "token": {"mode": "topk", "num_experts": 6, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 6},
+        "task": {"mode": "topp", "num_experts": 8, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 8},
+        "task_hard_router": false
+      }
+    },
+    {
+      "id": "D",
+      "config": "methods/t2mir/configs/args_robotlab_g1_official_mixed_v1_dual_topp.yaml",
+      "routing_signature": {
+        "schema_version": 1,
+        "token": {"mode": "topp", "num_experts": 6, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 6},
+        "task": {"mode": "topp", "num_experts": 8, "fixed_top_k": 2, "top_p_threshold": 0.4, "top_p_max_selects": 8},
+        "task_hard_router": false
+      }
+    }
+  ]
+}

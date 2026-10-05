@@ -1,0 +1,12 @@
+# flash-attn==2.6.3
+gin-config
+gymnasium==1.0.0
+# Keep the training and deployment environments on the same validated MuJoCo
+# build. MuJoCo is not required by every offline-training command, but pinning
+# it here prevents pip from silently upgrading the deployment runtime.
+mujoco==3.1.5
+stable_baselines3==2.6.0
+tensorboard
+tqdm
+transformers==4.40.0
+wandb

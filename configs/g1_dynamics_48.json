@@ -1,0 +1,455 @@
+{
+  "format_version": 1,
+  "description": "RobotLab G1 4D hidden-dynamics benchmark",
+  "parameter_semantics": {
+    "action_lag": "first-order action filter coefficient",
+    "motor_strength": "actuator effort-limit multiplier",
+    "payload_kg": "mass added to torso_link",
+    "friction": "fixed static and dynamic robot-body friction coefficient"
+  },
+  "task_count": 48,
+  "training_tasks": 42,
+  "eval_tasks": [
+    5,
+    14,
+    23,
+    32,
+    41,
+    47
+  ],
+  "sha256": "9ef76e0deeb716013dc66eba79fdb912dc212ab52e2dd3299fb3675b62ba8349",
+  "tasks": [
+    {
+      "task_id": 0,
+      "action_lag": 0.2,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task00_lag0p2_motor0p8_payload0_friction0p65"
+    },
+    {
+      "task_id": 1,
+      "action_lag": 0.2,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task01_lag0p2_motor0p8_payload0_friction1"
+    },
+    {
+      "task_id": 2,
+      "action_lag": 0.2,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task02_lag0p2_motor0p8_payload3_friction0p65"
+    },
+    {
+      "task_id": 3,
+      "action_lag": 0.2,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task03_lag0p2_motor0p8_payload3_friction1"
+    },
+    {
+      "task_id": 4,
+      "action_lag": 0.2,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task04_lag0p2_motor0p9_payload0_friction0p65"
+    },
+    {
+      "task_id": 5,
+      "action_lag": 0.2,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "eval",
+      "tag": "task05_lag0p2_motor0p9_payload0_friction1"
+    },
+    {
+      "task_id": 6,
+      "action_lag": 0.2,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task06_lag0p2_motor0p9_payload3_friction0p65"
+    },
+    {
+      "task_id": 7,
+      "action_lag": 0.2,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task07_lag0p2_motor0p9_payload3_friction1"
+    },
+    {
+      "task_id": 8,
+      "action_lag": 0.2,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task08_lag0p2_motor1_payload0_friction0p65"
+    },
+    {
+      "task_id": 9,
+      "action_lag": 0.2,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task09_lag0p2_motor1_payload0_friction1"
+    },
+    {
+      "task_id": 10,
+      "action_lag": 0.2,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task10_lag0p2_motor1_payload3_friction0p65"
+    },
+    {
+      "task_id": 11,
+      "action_lag": 0.2,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task11_lag0p2_motor1_payload3_friction1"
+    },
+    {
+      "task_id": 12,
+      "action_lag": 0.32,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task12_lag0p32_motor0p8_payload0_friction0p65"
+    },
+    {
+      "task_id": 13,
+      "action_lag": 0.32,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task13_lag0p32_motor0p8_payload0_friction1"
+    },
+    {
+      "task_id": 14,
+      "action_lag": 0.32,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "eval",
+      "tag": "task14_lag0p32_motor0p8_payload3_friction0p65"
+    },
+    {
+      "task_id": 15,
+      "action_lag": 0.32,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task15_lag0p32_motor0p8_payload3_friction1"
+    },
+    {
+      "task_id": 16,
+      "action_lag": 0.32,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task16_lag0p32_motor0p9_payload0_friction0p65"
+    },
+    {
+      "task_id": 17,
+      "action_lag": 0.32,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task17_lag0p32_motor0p9_payload0_friction1"
+    },
+    {
+      "task_id": 18,
+      "action_lag": 0.32,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task18_lag0p32_motor0p9_payload3_friction0p65"
+    },
+    {
+      "task_id": 19,
+      "action_lag": 0.32,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task19_lag0p32_motor0p9_payload3_friction1"
+    },
+    {
+      "task_id": 20,
+      "action_lag": 0.32,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task20_lag0p32_motor1_payload0_friction0p65"
+    },
+    {
+      "task_id": 21,
+      "action_lag": 0.32,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task21_lag0p32_motor1_payload0_friction1"
+    },
+    {
+      "task_id": 22,
+      "action_lag": 0.32,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task22_lag0p32_motor1_payload3_friction0p65"
+    },
+    {
+      "task_id": 23,
+      "action_lag": 0.32,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "eval",
+      "tag": "task23_lag0p32_motor1_payload3_friction1"
+    },
+    {
+      "task_id": 24,
+      "action_lag": 0.4,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task24_lag0p4_motor0p8_payload0_friction0p65"
+    },
+    {
+      "task_id": 25,
+      "action_lag": 0.4,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task25_lag0p4_motor0p8_payload0_friction1"
+    },
+    {
+      "task_id": 26,
+      "action_lag": 0.4,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task26_lag0p4_motor0p8_payload3_friction0p65"
+    },
+    {
+      "task_id": 27,
+      "action_lag": 0.4,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task27_lag0p4_motor0p8_payload3_friction1"
+    },
+    {
+      "task_id": 28,
+      "action_lag": 0.4,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task28_lag0p4_motor0p9_payload0_friction0p65"
+    },
+    {
+      "task_id": 29,
+      "action_lag": 0.4,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task29_lag0p4_motor0p9_payload0_friction1"
+    },
+    {
+      "task_id": 30,
+      "action_lag": 0.4,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task30_lag0p4_motor0p9_payload3_friction0p65"
+    },
+    {
+      "task_id": 31,
+      "action_lag": 0.4,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task31_lag0p4_motor0p9_payload3_friction1"
+    },
+    {
+      "task_id": 32,
+      "action_lag": 0.4,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "eval",
+      "tag": "task32_lag0p4_motor1_payload0_friction0p65"
+    },
+    {
+      "task_id": 33,
+      "action_lag": 0.4,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task33_lag0p4_motor1_payload0_friction1"
+    },
+    {
+      "task_id": 34,
+      "action_lag": 0.4,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task34_lag0p4_motor1_payload3_friction0p65"
+    },
+    {
+      "task_id": 35,
+      "action_lag": 0.4,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task35_lag0p4_motor1_payload3_friction1"
+    },
+    {
+      "task_id": 36,
+      "action_lag": 0.43,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task36_lag0p43_motor0p8_payload0_friction0p65"
+    },
+    {
+      "task_id": 37,
+      "action_lag": 0.43,
+      "motor_strength": 0.8,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task37_lag0p43_motor0p8_payload0_friction1"
+    },
+    {
+      "task_id": 38,
+      "action_lag": 0.43,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task38_lag0p43_motor0p8_payload3_friction0p65"
+    },
+    {
+      "task_id": 39,
+      "action_lag": 0.43,
+      "motor_strength": 0.8,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task39_lag0p43_motor0p8_payload3_friction1"
+    },
+    {
+      "task_id": 40,
+      "action_lag": 0.43,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task40_lag0p43_motor0p9_payload0_friction0p65"
+    },
+    {
+      "task_id": 41,
+      "action_lag": 0.43,
+      "motor_strength": 0.9,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "eval",
+      "tag": "task41_lag0p43_motor0p9_payload0_friction1"
+    },
+    {
+      "task_id": 42,
+      "action_lag": 0.43,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task42_lag0p43_motor0p9_payload3_friction0p65"
+    },
+    {
+      "task_id": 43,
+      "action_lag": 0.43,
+      "motor_strength": 0.9,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task43_lag0p43_motor0p9_payload3_friction1"
+    },
+    {
+      "task_id": 44,
+      "action_lag": 0.43,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task44_lag0p43_motor1_payload0_friction0p65"
+    },
+    {
+      "task_id": 45,
+      "action_lag": 0.43,
+      "motor_strength": 1.0,
+      "payload_kg": 0.0,
+      "friction": 1.0,
+      "split": "train",
+      "tag": "task45_lag0p43_motor1_payload0_friction1"
+    },
+    {
+      "task_id": 46,
+      "action_lag": 0.43,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 0.65,
+      "split": "train",
+      "tag": "task46_lag0p43_motor1_payload3_friction0p65"
+    },
+    {
+      "task_id": 47,
+      "action_lag": 0.43,
+      "motor_strength": 1.0,
+      "payload_kg": 3.0,
+      "friction": 1.0,
+      "split": "eval",
+      "tag": "task47_lag0p43_motor1_payload3_friction1"
+    }
+  ]
+}

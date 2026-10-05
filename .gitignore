@@ -1,0 +1,29 @@
+# Python and editor state
+**/__pycache__/
+**/.pytest_cache/
+**/*.py[cod]
+.DS_Store
+**/.idea/
+
+# Training and evaluation products
+**/runs/
+**/logs/
+**/outputs/
+**/recordings/
+**/videos/
+**/wandb/
+data/
+methods/t2mir/runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local deployable assets are staged here but never committed by default.
+local_assets/
+
+# Isaac Sim build products
+_isaac_sim*
+_repo/
+_build/
+*.tmp

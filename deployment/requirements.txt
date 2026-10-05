@@ -1,0 +1,9 @@
+# MuJoCo version used by Unitree's published 37-DoF kinect_teleoperate source
+# asset. Run prepare_mjcf.py before giving that asset to the deployment runner.
+mujoco==3.1.5
+imageio>=2.31,<3
+imageio-ffmpeg>=0.4.9,<1
+
+# The existing exported PPO backend. PyTorch is already supplied by rl_demo
+# and is only needed when selecting the T2MIR backend.
+onnxruntime>=1.17,<2

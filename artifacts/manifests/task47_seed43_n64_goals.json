@@ -1,0 +1,528 @@
+{
+  "episodes": 8,
+  "format_version": 1,
+  "goals_per_profile": 64,
+  "max_distance": 2.0,
+  "min_distance": 1.0,
+  "profile_ids": [
+    47
+  ],
+  "protocol": "robotlab-paired-goals-v1",
+  "replicas": 8,
+  "scenario_sha256": "4aef3878c49aed07b47a146fcb463d1718c48ceee3239b99df9aec8c155f7559",
+  "scenarios": [
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.0261689566268568,
+      "relative_y": -0.18881496214346088,
+      "relative_yaw": 2.566307926032982,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.6021725391512023,
+      "relative_y": 0.3402287770990434,
+      "relative_yaw": -2.0928435131383107,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.4426682678542153,
+      "relative_y": -0.4138121946352309,
+      "relative_yaw": -1.457212844333121,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.6184262375905913,
+      "relative_y": 0.7430462864718972,
+      "relative_yaw": 0.10639156183946552,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.2693559789941424,
+      "relative_y": 0.49017896365246943,
+      "relative_yaw": -2.710422865709299,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 1.280089436128196,
+      "relative_y": 0.056476238720476926,
+      "relative_yaw": -0.45930426282268044,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": -1.1158519486595153,
+      "relative_y": -0.7268051970594533,
+      "relative_yaw": 1.6507745922697667,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 0,
+      "profile_id": 47,
+      "relative_x": 0.025131033930157413,
+      "relative_y": -1.3288260313318354,
+      "relative_yaw": -2.010616688549935,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": 1.0257140259576512,
+      "relative_y": -0.07971063209706183,
+      "relative_yaw": -1.3041694760683424,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": -1.6272457457475467,
+      "relative_y": -0.9196750592989366,
+      "relative_yaw": -0.2524107014775936,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": 1.3658322045834959,
+      "relative_y": -1.0315954235877354,
+      "relative_yaw": 0.9840951058030152,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": 1.4025148912258207,
+      "relative_y": 0.004921346075857344,
+      "relative_yaw": -1.1621575618133775,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": -1.2580034324456373,
+      "relative_y": -0.24353914669826202,
+      "relative_yaw": -1.1018377492913358,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": -0.9631905477315389,
+      "relative_y": 0.6720481434121875,
+      "relative_yaw": 2.568164712977927,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": -0.05069096533619334,
+      "relative_y": -1.2071984883535534,
+      "relative_yaw": 2.338376070434399,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 1,
+      "profile_id": 47,
+      "relative_x": -0.12776789055351956,
+      "relative_y": -1.0083302501115714,
+      "relative_yaw": 1.1577564659774824,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": -0.8521572795616293,
+      "relative_y": 0.9803993361328469,
+      "relative_yaw": -2.5734478735088278,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": -1.3372412597810421,
+      "relative_y": -0.29299262292076134,
+      "relative_yaw": 0.2621160482281524,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": -0.569224284414898,
+      "relative_y": 0.9477635506896757,
+      "relative_yaw": -0.9866615215349173,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": -1.1722956581429358,
+      "relative_y": -1.5420843071197992,
+      "relative_yaw": -0.8799045303523094,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": 1.7783975709543496,
+      "relative_y": 0.30760546221759183,
+      "relative_yaw": 2.6394088632515587,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": 1.5756252001926385,
+      "relative_y": -1.112409515634124,
+      "relative_yaw": 2.391888768416303,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": 1.7148909177413565,
+      "relative_y": -0.8200540392008349,
+      "relative_yaw": 0.9538837779136005,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 2,
+      "profile_id": 47,
+      "relative_x": 0.6095339828967664,
+      "relative_y": -1.2217867877374453,
+      "relative_yaw": 2.292108530123884,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": 1.1687131056357838,
+      "relative_y": 1.2342848646143623,
+      "relative_yaw": -2.1911542404196993,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": 1.6912956007970814,
+      "relative_y": 1.0403985057153264,
+      "relative_yaw": -0.029891357428513565,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": 1.5671007105535173,
+      "relative_y": 1.050170490743329,
+      "relative_yaw": 0.7570103928194336,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": -1.0865024241243486,
+      "relative_y": 0.5076184628864743,
+      "relative_yaw": -1.971916868212436,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": 0.40480177339975026,
+      "relative_y": -1.2306069185539894,
+      "relative_yaw": 0.16316866600672775,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": -0.9866833187035388,
+      "relative_y": -1.4505996325011552,
+      "relative_yaw": 2.9399169731013455,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": 0.776085240136377,
+      "relative_y": -0.7288590801028813,
+      "relative_yaw": -0.3788662123433353,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 3,
+      "profile_id": 47,
+      "relative_x": -0.6668000436705723,
+      "relative_y": -1.6029701582775226,
+      "relative_yaw": -0.46724021605982236,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": 0.3442387157081209,
+      "relative_y": 0.9809424963925347,
+      "relative_yaw": -2.844460493971726,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": -0.2680483904889077,
+      "relative_y": 1.680835640636382,
+      "relative_yaw": -2.9642797951713997,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": -1.8093457850987802,
+      "relative_y": -0.42293221579622087,
+      "relative_yaw": -1.2530100774469175,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": 0.07451106001152864,
+      "relative_y": -1.6981125109864308,
+      "relative_yaw": 0.35592817279447875,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": -1.742258920679011,
+      "relative_y": 0.4156235301311321,
+      "relative_yaw": -1.9416047370088412,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": -0.24146478663837434,
+      "relative_y": 1.6803102877798606,
+      "relative_yaw": 2.5770196726656414,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": 0.8794488919524585,
+      "relative_y": -1.025942598010693,
+      "relative_yaw": -2.944353165082712,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 4,
+      "profile_id": 47,
+      "relative_x": -1.0273940020287786,
+      "relative_y": -0.7836341061627274,
+      "relative_yaw": -0.7990455794822346,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": -1.666492074132243,
+      "relative_y": -0.12279047694832547,
+      "relative_yaw": -1.094393468046392,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": -1.1076697974651655,
+      "relative_y": -0.46682739692091385,
+      "relative_yaw": -0.06454279730154333,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": 0.7566482615297642,
+      "relative_y": 0.7375089675032733,
+      "relative_yaw": -1.582772878582318,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": 0.4561445845307177,
+      "relative_y": 1.152563555299487,
+      "relative_yaw": 2.609837804144557,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": 0.5340521311583937,
+      "relative_y": 1.3907301865600885,
+      "relative_yaw": 2.268267042748251,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": 1.2711981370635765,
+      "relative_y": -1.2177395840233924,
+      "relative_yaw": 2.9343126494248315,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": 1.2262015784704339,
+      "relative_y": 1.0988581876825605,
+      "relative_yaw": -1.5513717641259843,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 5,
+      "profile_id": 47,
+      "relative_x": -1.816252594127251,
+      "relative_y": 0.4705052597267546,
+      "relative_yaw": -1.5254702393131825,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": -1.8445430967597254,
+      "relative_y": 0.0156512745754326,
+      "relative_yaw": -1.863852422613915,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": 1.2565422477189339,
+      "relative_y": 1.4370349724646911,
+      "relative_yaw": -0.9818919342341887,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": 0.39433809642873735,
+      "relative_y": -1.4782082992760173,
+      "relative_yaw": -0.3544904036315457,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": 0.826056976653977,
+      "relative_y": -1.0899415601266462,
+      "relative_yaw": 1.1206867973297996,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": 1.0019950995218978,
+      "relative_y": 0.7671779932382982,
+      "relative_yaw": -0.7216040227386085,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": -0.9896028348917105,
+      "relative_y": 0.17682818713049644,
+      "relative_yaw": -2.6953225754744095,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": -0.48189079617463937,
+      "relative_y": -1.465061178399858,
+      "relative_yaw": 0.6202577989469478,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 6,
+      "profile_id": 47,
+      "relative_x": 0.15192451852983438,
+      "relative_y": 1.9038595686846538,
+      "relative_yaw": -0.007477833478119145,
+      "replica_id": 7
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": 0.9897202257198453,
+      "relative_y": 1.0106640062213894,
+      "relative_yaw": -2.446253632061252,
+      "replica_id": 0
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": -1.045062303433062,
+      "relative_y": 0.0706910940691434,
+      "relative_yaw": -1.1831180056949482,
+      "replica_id": 1
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": 1.0450373389225636,
+      "relative_y": -1.5110343506954864,
+      "relative_yaw": -1.0034193768319333,
+      "replica_id": 2
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": -1.0580588736985141,
+      "relative_y": 1.659545036635317,
+      "relative_yaw": -1.0636633337436194,
+      "replica_id": 3
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": 0.4710416921684792,
+      "relative_y": -1.5498410074051905,
+      "relative_yaw": -0.0845396970392791,
+      "replica_id": 4
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": -1.67259582240487,
+      "relative_y": -0.6918944160863165,
+      "relative_yaw": -0.562036052173331,
+      "replica_id": 5
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": -1.1551807103939442,
+      "relative_y": -0.449413664468567,
+      "relative_yaw": 1.2976887210951382,
+      "replica_id": 6
+    },
+    {
+      "episode_index": 7,
+      "profile_id": 47,
+      "relative_x": -1.1910598832225798,
+      "relative_y": 1.5840278049931091,
+      "relative_yaw": 2.8728790095586803,
+      "replica_id": 7
+    }
+  ],
+  "seed": 43
+}

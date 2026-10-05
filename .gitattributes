@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
+*.pt binary
+*.onnx binary
