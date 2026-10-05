@@ -27,6 +27,15 @@ deploys the resulting policy through Isaac Sim, MuJoCo and ROS 2.
 
 ![System architecture](artifacts/figures/architecture.png)
 
+## Closed-loop demonstrations
+
+| Isaac Sim | MuJoCo |
+|---|---|
+| ![DT2MIR in Isaac Sim](artifacts/demos/dt2mir_isaac_sim.gif) | ![DT2MIR in MuJoCo](artifacts/demos/dt2mir_mujoco.gif) |
+
+Both previews use the frozen DT2MIR policy. Full-resolution MP4 files are
+distributed separately as private release assets.
+
 ## Main results
 
 ### Isaac Sim held-out dynamics evaluation, task47, 512 episodes
