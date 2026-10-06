@@ -34,7 +34,18 @@ deploys the resulting policy through Isaac Sim, MuJoCo and ROS 2.
 | ![DT2MIR in Isaac Sim](artifacts/demos/dt2mir_isaac_sim.gif) | ![DT2MIR in MuJoCo](artifacts/demos/dt2mir_mujoco.gif) |
 
 Both previews use the frozen DT2MIR policy. Full-resolution MP4 files are
-distributed separately as private release assets.
+distributed separately as GitHub release assets.
+
+## Models and datasets
+
+| Artifact | Repository | Contents |
+|---|---|---|
+| Frozen checkpoints | [RobotLab G1 T2MIR and DT2MIR](https://huggingface.co/lxy222222/RobotLab-G1-T2MIR-DT2MIR) | T2MIR and DT2MIR stage-1 pretraining and stage-2 actor-mean checkpoints |
+| Training datasets | [RobotLab G1 Multi-Dynamics Official Mixed v1](https://huggingface.co/datasets/lxy222222/RobotLab-G1-MultiDynamics-official-mixed-v1) | Source-action and actor-mean datasets for all 42 training profiles |
+
+The model and dataset repositories include cards, resolved configurations,
+provenance records and SHA-256 integrity information. Together with this code
+repository, they form the complete reproduction bundle.
 
 ## Main results
 
